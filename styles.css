@@ -1,0 +1,88 @@
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+header {
+    border-bottom: solid 3px rgb(180, 0, 0);
+    padding: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 70px;
+    color: rgb(180, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.primeira-section {
+    background: rgb(120, 40, 40);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+}
+
+.segunda-section {
+    background: rgb(0, 0, 0);
+    display: block;
+    padding-top: 30px;
+}
+
+.segunda-section img {
+    opacity: 0.75;
+    height: 240px;
+}
+
+.segunda-section img:hover {
+    opacity: 1;
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+p {
+    font-size: 21px;
+}
+
+.texto-video {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.primeiro-video {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.mais-videos {
+    padding: 10px;
+}
+
+.primeira-trinca {
+    display: flex;
+    padding-left: 10px;
+    border-top: 2px solid rgba(255, 0, 0, 0.625);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.625);
+}
+
+.segunda-trinca {
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.625);
+}
+
+.terceira-trinca {
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.625);
+}
